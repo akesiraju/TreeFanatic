@@ -1,0 +1,4 @@
+﻿function Log()
+{
+    alert("hello");
+}
