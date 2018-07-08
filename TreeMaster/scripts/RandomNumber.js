@@ -1,4 +1,4 @@
-var RandomNumber = (function () {
+var RandomNumber = /** @class */ (function () {
     function RandomNumber() {
         this.numbers = new Array();
         this.index = 0;

@@ -1,11 +1,11 @@
-var Point = (function () {
+var Point = /** @class */ (function () {
     function Point(x, y) {
         this.X = x;
         this.Y = y;
     }
     return Point;
 }());
-var Circle = (function () {
+var Circle = /** @class */ (function () {
     function Circle(canvas, centre, radius, color, value) {
         this.Canvas = canvas;
         this.Centre = centre;
@@ -47,7 +47,7 @@ var Circle = (function () {
     };
     return Circle;
 }());
-var Line = (function () {
+var Line = /** @class */ (function () {
     function Line(canvas, start, end, color) {
         this.Canvas = canvas;
         this.Start = start;
@@ -80,7 +80,7 @@ var Line = (function () {
     };
     return Line;
 }());
-var MyText = (function () {
+var MyText = /** @class */ (function () {
     function MyText(canvas, start, displayText, color) {
         this.Canvas = canvas;
         this.Start = start;
@@ -100,7 +100,7 @@ var MyText = (function () {
     MyText.prototype.Clear = function () { };
     return MyText;
 }());
-var Pen = (function () {
+var Pen = /** @class */ (function () {
     function Pen(canvas, _nodeSize) {
         this.Canvas = canvas;
         this.nodeSize = _nodeSize;

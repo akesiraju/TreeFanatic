@@ -1,4 +1,4 @@
-var BinarySerachTree = (function () {
+var BinarySerachTree = /** @class */ (function () {
     function BinarySerachTree() {
         this.Root = null;
     }

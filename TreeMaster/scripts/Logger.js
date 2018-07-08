@@ -1,4 +1,4 @@
-var Logger = (function () {
+var Logger = /** @class */ (function () {
     function Logger() {
     }
     Logger.Debug = function (msg) {

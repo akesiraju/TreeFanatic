@@ -1,1 +1,1 @@
-{"version":3,"file":"SearchProcessor.js","sourceRoot":"","sources":["SearchProcessor.ts"],"names":[],"mappings":"AAAA;IAAA;IAMA,CAAC;IAJU,yBAAS,GAAhB,UAAiB,KAAa;QAE1B,MAAM,CAAC,yBAAyB,CAAC;IACrC,CAAC;IACL,sBAAC;AAAD,CAAC,AAND,IAMC"}
+{"version":3,"file":"SearchProcessor.js","sourceRoot":"","sources":["SearchProcessor.ts"],"names":[],"mappings":"AAAA;IAAA;IAMA,CAAC;IAJU,yBAAS,GAAhB,UAAiB,KAAa;QAE1B,OAAO,yBAAyB,CAAC;IACrC,CAAC;IACL,sBAAC;AAAD,CAAC,AAND,IAMC"}

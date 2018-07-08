@@ -1,4 +1,4 @@
-var TreeCaller = (function () {
+var TreeCaller = /** @class */ (function () {
     function TreeCaller(dataGen, treeType) {
         this.mainTree = treeType;
         this.dataGenerator = dataGen;

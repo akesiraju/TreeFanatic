@@ -1,4 +1,4 @@
-var VisualBinarySearchTree = (function () {
+var VisualBinarySearchTree = /** @class */ (function () {
     function VisualBinarySearchTree(_treeDesigner) {
         this.Root = null;
         this.treeDesigner = _treeDesigner;
@@ -129,6 +129,7 @@ var VisualBinarySearchTree = (function () {
                     this.treeDesigner.HighlightNewConnection(previous, temp.Left);
                 }
             }
+            // deleting right node
             else if (previous.Right != null && previous.Right.Value == temp.Value) {
                 this.treeDesigner.HighlightOldConnection(previous, previous.Right);
                 if (temp.Right != null) {

@@ -1,4 +1,4 @@
-var SearchProcessor = (function () {
+var SearchProcessor = /** @class */ (function () {
     function SearchProcessor() {
     }
     SearchProcessor.GetResult = function (input) {

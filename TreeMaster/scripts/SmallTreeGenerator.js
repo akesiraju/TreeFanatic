@@ -1,4 +1,4 @@
-var SmallTreeGenerator = (function () {
+var SmallTreeGenerator = /** @class */ (function () {
     function SmallTreeGenerator(dataGen, treeType, onlyRoot) {
         this.nodeCount = 50;
         this.treeCaller = new TreeCaller(dataGen, treeType);

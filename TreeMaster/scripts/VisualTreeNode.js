@@ -1,4 +1,4 @@
-var VisualTreeNode = (function () {
+var VisualTreeNode = /** @class */ (function () {
     function VisualTreeNode(value, x, y, color) {
         this.Value = value;
         this.X = x;

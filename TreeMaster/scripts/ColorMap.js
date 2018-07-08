@@ -1,4 +1,4 @@
-var ColorMap = (function () {
+var ColorMap = /** @class */ (function () {
     function ColorMap() {
     }
     ColorMap.GetNewColor = function () {
@@ -25,7 +25,7 @@ var ColorMap = (function () {
     };
     return ColorMap;
 }());
-var NodeColor = (function () {
+var NodeColor = /** @class */ (function () {
     function NodeColor(upperColor, bottomColor) {
         this.UpperColor = upperColor;
         this.BottomColor = bottomColor;

@@ -1,4 +1,4 @@
-var CurrentStats = (function () {
+var CurrentStats = /** @class */ (function () {
     function CurrentStats() {
     }
     CurrentStats.Refresh = function () {

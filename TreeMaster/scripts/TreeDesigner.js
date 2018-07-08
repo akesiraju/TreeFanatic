@@ -1,4 +1,4 @@
-var TreeDesigner = (function () {
+var TreeDesigner = /** @class */ (function () {
     function TreeDesigner(canvas) {
         this.nodeSize = 10;
         this.pen = new Pen(canvas, this.nodeSize);

@@ -1,4 +1,4 @@
-var TreeNode = (function () {
+var TreeNode = /** @class */ (function () {
     function TreeNode(value) {
         this.Value = value;
     }
