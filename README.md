@@ -1,2 +1,3 @@
 # TreeFanatic
-It's all about planet green
+
+Generates a colorful tree using HTML 5 Canvas
